@@ -4,33 +4,28 @@ body {
     color: white;
     font-weight: 300;
 }
-
 .dp {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     margin: 5px;
 }
-
 .ddp {
     height: 30px;
     width: 30px;
     border-radius: 50%;
     margin-top: 10px;
 }
-
 p {
     font-size: 14px;
     margin: 0px 0px 0px 5px;
     padding: 5px 5px 0px 5px;
 }
-
 .tap {
     font-size: 12px;
     font-weight: lighter;
     font-style: italic;
 }
-
 .group-info {
     display: flex;
     gap: 10px;
@@ -40,82 +35,68 @@ p {
     left: 0px;
     top: 0px;
 }
-
 .empty {
     width: 100%;
     height: 47px;
 }
-
 .message {
     margin: 5px;
     display: flex;
 }
-
 .cont {
     background-color: #202c33;
     width: 60%;
     margin: 10px;
     border-radius: 10px;
 }
-
 .name {
     font-size: 12px;
     margin: 0px 0px 0px 5px;
 }
-
 .pic-in-chat {
     max-width: 95%;
     margin: 5px;
     border-radius: 10px;
 }
-
 a {
     color: cadetblue;
     word-wrap: break-word;
 }
-
 .div-image {
     display: flex;
     justify-content: center;
 }
-
 .preview {
     background-color: #182229;
     border-radius: 10px;
     margin: 5px;
 }
-
 .prev {
     max-width: 100%;
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-
 .prev-title {
     font-size: 13px;
     margin-top: 10px;
     padding-bottom: 0px;
 }
-
 .prev-desc {
     font-size: 11px;
     font-weight: 100px;
     padding-top: 0px;
 }
-
 .prev-link {
     font-size: 10px;
     word-wrap: break-word;
 }
-
-footer {
+.time {
     font-size: 10px;
     text-align: end;
     margin: 0px 5px 2px 0px;
     color: #e9edef59;
 }
-
 #preview {
     background-color: #182229;
     border: 5px solid green;
@@ -123,36 +104,55 @@ footer {
     border-radius: 10px;
     margin: 5px;
 }
-
 .del-text {
     color: #667781;
     margin: 0px;
     padding: 0px 0px 0px 7px;
 }
-
-.del-symbol {
-    font-size: 20px;
-}
-
+.del-symbol {font-size: 20px;}
 #asan {color: green;}
-
 #henry {color: aqua;}
-
 #joshua {color: blueviolet;}
-
 #nnaemeka {color: chocolate;}
-
 #oboo {color: crimson;}
-
 #peter {color: deeppink;}
-
 #turkey {color: royalblue;}
-
 .flex-container {
     display: flex;
     flex-direction: column;
 }
-
 .my-message {
     align-self: flex-end;
+}
+.message-box {
+    width: 100%;
+    height: 60px;
+    background-color: #202c33;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+.message-box form {
+    flex-grow: 2;
+    width: 100%;
+}
+#trial {
+    background-color: #2a3942;
+    height: 40px;
+    border: 0px;
+    outline: 0;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 100%;
+    font-size: 15px;
+}
+.attach {
+    color: whitesmoke;
+    font-size: 30px;
+    flex: 0;
+    padding: 0px;
 }
